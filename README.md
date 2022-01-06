@@ -6,7 +6,7 @@ This project is to create a CMS-style blog site for developers to publish articl
 
 ## Installation
 
-Click on the [Deployed Link]().
+Click on the [Deployed Link](https://dry-ravine-93423.herokuapp.com/).
 
 ## Built With
 
