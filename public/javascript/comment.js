@@ -4,6 +4,7 @@ async function commentFormHandler(event) {
   const comment_text = document
     .querySelector('input[name="comment-body"]')
     .value.trim();
+
   const post_id = window.location.toString().split("/")[
     window.location.toString().split("/").length - 1
   ];
@@ -24,7 +25,7 @@ async function commentFormHandler(event) {
       document.location.reload();
     } else {
       alert(response.statusText);
-      //document.querySelector("#comment-form").style.display = "block";
+      document.querySelector("#comment-form").style.display = "block";
     }
   }
 }
