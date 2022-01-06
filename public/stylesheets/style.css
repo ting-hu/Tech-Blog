@@ -1,0 +1,56 @@
+:root {
+  --primary: #d9ead3;
+  --secondary: #231010;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.hero {
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 3%;
+}
+
+.hero a {
+  color: var(--primary);
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+.app-title {
+  font-size: 3rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin-left: 2rem;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 1rem;
+  box-shadow: 6px 5px gray;
+}
+
+/**** Account ***/
+.card {
+  border: 2px solid var(--secondary);
+  margin: 50px;
+}
+
+.card-header {
+  border: 10px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-size: 2rem;
+  margin-top: -0.5px;
+}
+
+.card-body {
+  padding: 5%;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary);
+  padding: 2%;
+  margin: 1%;
+}
